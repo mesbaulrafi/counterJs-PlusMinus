@@ -77,8 +77,9 @@ samp {
    justify-content: space-between;
 }
 .numberBox{
+    width: 50px;
     padding: 8px;
-    margin: 5px;
+    margin-top: 20px;
     background: #a20cf3;
     color: #fff;
     border-radius: 10px;

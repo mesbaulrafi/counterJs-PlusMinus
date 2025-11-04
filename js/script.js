@@ -46,7 +46,7 @@ arr.map((item)=>{
     } 
     let stop = setInterval(function () {
         count();
-    }, 1000 / item.dataset.a);
+    }, 3000 / item.dataset.a);
 });
 
 // counter up part End
