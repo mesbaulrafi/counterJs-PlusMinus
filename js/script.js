@@ -10,22 +10,22 @@ let alartTwo = document.getElementById("alartTwo");
 plusBtn.addEventListener("click",()=>{
     if (ruselt.innerText < 5) {
         ruselt.innerText++
-        alartOne.setAttribute("hidden", );
-        alartTwo.setAttribute("hidden", true);
+        alartOne.setAttribute("hidden",true)
+        alartTwo.setAttribute("hidden",true)
     } else {
-        alartOne.removeAttribute("hidden");
-        alartTwo.setAttribute("hidden", ture);
+        alartOne.removeAttribute("hidden")
+        alartTwo.setAttribute("hidden",true)
     }
 })
 
 minusBtn.addEventListener("click",()=>{
     if (ruselt.innerText > 0) {
         ruselt.innerText--
-        alartOne.setAttribute("hidden",true);
-        alartTwo.setAttribute("hidden",);
+        alartTwo.setAttribute("hidden",true)
+        alartOne.setAttribute("hidden",true)
     } else {
-        alartOne.setAttribute("hidden",true);
-        alartTwo.removeAttribute("hidden",);
+        alartTwo.removeAttribute("hidden")
+        alartOne.setAttribute("hidden",true)
     }
 })
 
