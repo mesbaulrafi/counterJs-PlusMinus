@@ -12,6 +12,8 @@ plusBtn.addEventListener("click",()=>{
         ruselt.innerText++
         alartOne.setAttribute("hidden",true)
         alartTwo.setAttribute("hidden",true)
+        plusBtn.style.background = "green"
+        minusBtn.style.background = "#dad060c2"
     } else {
         alartOne.removeAttribute("hidden")
         alartTwo.setAttribute("hidden",true)
@@ -23,7 +25,11 @@ minusBtn.addEventListener("click",()=>{
         ruselt.innerText--
         alartTwo.setAttribute("hidden",true)
         alartOne.setAttribute("hidden",true)
+        plusBtn.style.background = "#dad060c2"
+        minusBtn.style.background = "red"
     } else {
+        minusBtn.style.background = "red"
+        
         alartTwo.removeAttribute("hidden")
         alartOne.setAttribute("hidden",true)
     }
